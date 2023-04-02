@@ -40,7 +40,7 @@ const AuthForm = (props) => {
           authActions.login({ token: data.idToken, email: enteredEmail })
         );
       };
-    
+     
       sendRequest(
         {
           url: "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDcfCVS9eoZNwYwvxVC0yWjZw85gXntSYU",

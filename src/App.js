@@ -7,6 +7,6 @@ function App() {
     <AuthForm />
     </div>
   );
-}  
+}   
      
 export default App;
