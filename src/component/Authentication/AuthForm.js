@@ -32,7 +32,7 @@ const AuthForm = (props) => {
           password: enteredPassword,
           returnSecureToken: true,
         },
-      });
+      });  
       alert("Your Account Has Been Sucessfully Created You Can Now Login");
     } else {
       const saveLoginData = (data) => {

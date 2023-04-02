@@ -17,7 +17,7 @@ const ForgotPassword = () => {
           headers: {
             "content-type": "application/json",
           },
-        }
+        }  
       );
       if (!response.ok) {
         let errorMessage = "Authentication Failed";
