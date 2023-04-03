@@ -10,7 +10,7 @@ const ViewMail = (props) => {
   const viewMailHandler = () => {
     dispatch(mailActions.mailHandler());
   };
-
+  
   const deleteMailHandler = async () => {
     let url;
     if (props.type === "recevied") {
