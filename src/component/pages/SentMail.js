@@ -15,7 +15,7 @@ const SentMail = () => {
   const viewMailHandler = () => {
     dispatch(mailActions.mailHandler());
   };
-
+   
   useEffect(() => {
     const transformData = (data) => {
       const newData = [];

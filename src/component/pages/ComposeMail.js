@@ -37,7 +37,7 @@ const ComposeMail = (props) => {
       url: `https://mailbox-4c22f-default-rtdb.firebaseio.com/sent${senderMail}.json`,
       method: "POST",
       body: senderMailData
-    });
+    });  
 
     dispatch(uiActions.handleShow());
     
