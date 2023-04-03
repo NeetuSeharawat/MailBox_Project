@@ -35,3 +35,4 @@ const mailSlice = createSlice({
 export const mailActions = mailSlice.actions;
 
 export default mailSlice;
+  
