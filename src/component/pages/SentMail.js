@@ -14,7 +14,7 @@ const SentMail = () => {
   console.log(email);
   const viewMailHandler = () => {
     dispatch(mailActions.mailHandler());
-  };
+  }; 
    
   useEffect(() => {
     const transformData = (data) => {
