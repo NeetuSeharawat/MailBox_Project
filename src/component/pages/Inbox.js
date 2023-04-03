@@ -12,7 +12,7 @@ const Inbox = () => {
   const senderMail = useSelector((state) => state.auth.email);
   const email = senderMail.replace("@", "").replace(".", "");
   console.log(receivedMail);
-
+  
   const viewMailHandler = (mail) => {
     sendRequest({
       url: `https://mailbox-4c22f-default-rtdb.firebaseio.com/rec${email}/${mail.id}.json`,
